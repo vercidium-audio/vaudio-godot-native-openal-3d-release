@@ -3,3 +3,5 @@ bin/soft_oal.dll
 bin/glfw3.dll
 bin/vaudionative.dll
 bin/vaudionative.lib
+bin/vaudionative.pdb
+bin/vaudionative.exp
