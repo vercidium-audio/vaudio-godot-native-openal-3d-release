@@ -5,7 +5,7 @@ Raytraced audio GDExtension with realistic muffling, reverb, ambience and visual
 > [!WARNING]
 > This plugin is experimental and requires testing and feedback
 
-This repository requires Vercidium Audio v1.6.2 and OpenAL Soft to run:
+This repository requires Vercidium Audio v1.6.3 and OpenAL Soft to run:
 - Download the Vercidium Audio SDK from [vercidium.com](https://vercidium.com)
 - Download the OpenAL Soft DLL from [github.com/kcat/openal-soft](https://github.com/kcat/openal-soft/releases/tag/1.25.2)
 
@@ -35,3 +35,5 @@ TODO - setup instructions / video.
 ## Licencing
 
 The Vercidium Audio SDK is free for non-commercial products only. To purchase a licence for commercial use, head over to the [Vercidium Audio website](https://vercidium.com).
+
+This plugin uses OpenAL Soft, which is licensed under LGPL v2.1. Source is available at https://github.com/kcat/openal-soft.
