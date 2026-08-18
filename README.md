@@ -5,7 +5,7 @@ Raytraced audio GDExtension with realistic muffling, reverb, ambience and visual
 > [!WARNING]
 > This plugin is experimental and requires testing and feedback
 
-This repository requires Vercidium Audio v1.6.3 and OpenAL Soft to run:
+This repository requires Vercidium Audio v1.7.0 and OpenAL Soft to run:
 - Download the Vercidium Audio SDK from [vercidium.com](https://vercidium.com)
 - Download the OpenAL Soft DLL from [github.com/kcat/openal-soft](https://github.com/kcat/openal-soft/releases/tag/1.25.2)
 
@@ -20,14 +20,14 @@ This repository requires Vercidium Audio v1.6.3 and OpenAL Soft to run:
 - Dynamic scene updates - automatically handles moving objects
 
 ## References
-- [Source repo](https://github.com/vercidium-audio/vaudio-godot-native-source)
+- [Source repo](https://github.com/vercidium-audio/vaudio-godot-native-openal-3d-source)
 - [Vercidium Audio documentation](https://vercidium.com/docs)
 
 ## Installation
 
-1. Clone or download this repository into your Godot project's `addons/vaudio-godot-native-release/` folder
-2. Copy `vaudionative.dll` and `glfw3.dll` from the Vercidium Audio SDK `native/dev/windows` folder, to the `addons/vaudio-godot-native-release/bin/` folder
-3. Copy `soft_oal.dll` from the OpenAL Soft download, to the `addons/vaudio-godot-native-release/bin/` folder
+1. Clone or download this repository into your Godot project's `addons/vaudio-godot-native-openal-3d-release/` folder
+2. Copy `vaudionative.dll` and `glfw3.dll` from the Vercidium Audio SDK `native/dev/windows` folder, to the `addons/vaudio-godot-native-openal-3d-release/bin/` folder
+3. Copy `soft_oal.dll` from the OpenAL Soft download, to the `addons/vaudio-godot-native-openal-3d-release/bin/` folder
 4. Open your project in Godot — the GDExtension loads automatically, no plugin activation step required
 
 TODO - setup instructions / video.
