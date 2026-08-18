@@ -25,9 +25,9 @@ This repository requires Vercidium Audio v1.7.0 and OpenAL Soft to run:
 
 ## Installation
 
-1. Clone or download this repository into your Godot project's `addons/vaudio-godot-native-openal-3d-release/` folder
-2. Copy `vaudionative.dll` and `glfw3.dll` from the Vercidium Audio SDK `native/dev/windows` folder, to the `addons/vaudio-godot-native-openal-3d-release/bin/` folder
-3. Copy `soft_oal.dll` from the OpenAL Soft download, to the `addons/vaudio-godot-native-openal-3d-release/bin/` folder
+1. Clone or download this repository into your Godot project's `addons/vaudio-godot-native-openal-3d/` folder
+2. Copy `vaudionative.dll` and `glfw3.dll` from the Vercidium Audio SDK `native/dev/windows` folder, to the `addons/vaudio-godot-native-openal-3d/bin/` folder
+3. Copy `soft_oal.dll` from the OpenAL Soft download, to the `addons/vaudio-godot-native-openal-3d/bin/` folder
 4. Open your project in Godot — the GDExtension loads automatically, no plugin activation step required
 
 TODO - setup instructions / video.
