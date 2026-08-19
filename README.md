@@ -3,7 +3,9 @@
 Raytraced audio GDExtension with realistic muffling, reverb, ambience and visualisation for non-Mono Godot 4, using OpenAL Soft as the audio backend.
 
 > [!WARNING]
-> This plugin is experimental and requires testing and feedback
+> This repository contains plugin releases. For source code, see [vaudio-godot-native-openal-3d-source](https://github.com/vercidium-audio/vaudio-godot-native-openal-3d-source).
+
+For Mono Godot (C#), please use [this plugin](https://github.com/vercidium-audio/vaudio-godot-mono-openal-3d/releases).
 
 This repository requires Vercidium Audio v1.7.0 and OpenAL Soft to run:
 - Download the Vercidium Audio SDK from [vercidium.com](https://vercidium.com)
@@ -29,8 +31,6 @@ This repository requires Vercidium Audio v1.7.0 and OpenAL Soft to run:
 2. Copy `vaudionative.dll` and `glfw3.dll` from the Vercidium Audio SDK `native/dev/windows` folder, to the `addons/vaudio-godot-native-openal-3d/bin/` folder
 3. Copy `soft_oal.dll` from the OpenAL Soft download, to the `addons/vaudio-godot-native-openal-3d/bin/` folder
 4. Open your project in Godot — the GDExtension loads automatically, no plugin activation step required
-
-TODO - setup instructions / video.
 
 ## Licencing
 
