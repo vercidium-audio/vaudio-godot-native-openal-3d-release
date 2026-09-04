@@ -7,9 +7,8 @@ Raytraced audio GDExtension with realistic muffling, reverb, ambience and visual
 
 For Mono Godot (C#), please use [this plugin](https://github.com/vercidium-audio/vaudio-godot-mono-openal-3d/releases).
 
-This repository requires Vercidium Audio v1.8.0 and OpenAL Soft to run:
+This repository requires the Vercidium Audio v1.8.1 SDK to run. Windows, Linux and macOS (Apple Silicon) are supported. OpenAL Soft is bundled.
 - Download the Vercidium Audio SDK from [vercidium.com](https://vercidium.com)
-- Download the OpenAL Soft DLL from [github.com/kcat/openal-soft](https://github.com/kcat/openal-soft/releases/tag/1.25.2)
 
 > Please note that the Vercidium Audio SDK is not free for commercial use. See [vercidium.com/eula](https://vercidium.com/eula)
 
@@ -28,9 +27,13 @@ This repository requires Vercidium Audio v1.8.0 and OpenAL Soft to run:
 ## Installation
 
 1. Clone or download this repository into your Godot project's `addons/vaudio-godot-native-openal-3d/` folder
-2. Copy `vaudionative.dll` and `glfw3.dll` from the Vercidium Audio SDK `native/dev/windows` folder, to the `addons/vaudio-godot-native-openal-3d/bin/` folder
-3. Copy `soft_oal.dll` from the OpenAL Soft download, to the `addons/vaudio-godot-native-openal-3d/bin/` folder
-4. Open your project in Godot — the GDExtension loads automatically, no plugin activation step required
+2. From the Vercidium Audio SDK, copy the vaudionative library for your platform into `addons/vaudio-godot-native-openal-3d/bin/`:
+   - Windows: `vaudionative.dll` + `glfw3.dll` (from `native/dev/windows`)
+   - Linux: `libvaudionative.so` (from `native/production/linux`)
+   - macOS (Apple Silicon): `libvaudionative.dylib` (from `native/production/mac`)
+3. Open your project in Godot — the GDExtension loads automatically, no plugin activation step required
+
+OpenAL Soft (`soft_oal.dll` / `libopenal.so.1` / `libopenal.1.dylib`) is bundled in `bin/` already.
 
 ## Licencing
 
