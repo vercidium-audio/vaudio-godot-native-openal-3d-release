@@ -1,12 +1,12 @@
-# Third-party runtime libraries - not committed. Packaging places them here at build time; end
-# users get them from the release zip (OpenAL Soft) or the Vercidium Audio SDK (vaudionative).
-bin/soft_oal.dll
+# Dependencies
 bin/glfw3.dll
+bin/libopenal.1.dylib
+bin/libopenal.so.1
+bin/soft_oal.dll
+
+# Native binaries
+bin/vaudio-debug-window.exe
 bin/vaudionative.dll
+bin/vaudionative.exp
 bin/vaudionative.lib
 bin/vaudionative.pdb
-bin/vaudionative.exp
-bin/libvaudionative.so
-bin/libvaudionative.dylib
-bin/libopenal.so.1
-bin/libopenal.1.dylib
